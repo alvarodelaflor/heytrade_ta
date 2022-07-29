@@ -29,7 +29,7 @@ public class ControllerExceptionHandler {
                 dupKey,
                 "Duplicate keys are no allowed");
 
-        return new ResponseEntity<>(message, HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(message, HttpStatus.CONFLICT);
     }
 
     @ExceptionHandler(value = {MethodArgumentNotValidException.class})
@@ -51,7 +51,7 @@ public class ControllerExceptionHandler {
                 errors.toString(),
                 "Invalid params");
 
-        return new ResponseEntity<>(message, HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(message, HttpStatus.FORBIDDEN);
     }
 
     @ExceptionHandler(InvalidFormatException.class)

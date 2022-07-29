@@ -6,7 +6,7 @@ services:
     #    restart: always
     build: .
     ports:
-      - "${DOCKER_PORT}:${PORT}"
+      - "${DOCKER_PORT}:8080"
     links:
       - mongo
     volumes:
