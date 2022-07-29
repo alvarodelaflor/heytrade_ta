@@ -4,6 +4,5 @@ COPY "./target/pokedex-0.0.1-SNAPSHOT.jar" "app.jar"
 ENTRYPOINT [ \
     "java", \
     "-jar", \
-    "-Dserver.port=${env.PORT}", \
     "app.jar" \
 ]
