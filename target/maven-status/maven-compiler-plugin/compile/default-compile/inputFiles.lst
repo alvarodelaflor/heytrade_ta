@@ -16,6 +16,7 @@
 /home/alvaro/IdeaProjects/heytrade_ta/src/main/java/com/heytrade/pokedex/validation/WeightValidator.java
 /home/alvaro/IdeaProjects/heytrade_ta/src/main/java/com/heytrade/pokedex/domain/Height.java
 /home/alvaro/IdeaProjects/heytrade_ta/src/main/java/com/heytrade/pokedex/PokedexApplication.java
+/home/alvaro/IdeaProjects/heytrade_ta/src/main/java/com/heytrade/pokedex/controller/AzureController.java
 /home/alvaro/IdeaProjects/heytrade_ta/src/main/java/com/heytrade/pokedex/domain/attack/Attaks.java
 /home/alvaro/IdeaProjects/heytrade_ta/src/main/java/com/heytrade/pokedex/controller/EvolutionController.java
 /home/alvaro/IdeaProjects/heytrade_ta/src/main/java/com/heytrade/pokedex/domain/Weight.java

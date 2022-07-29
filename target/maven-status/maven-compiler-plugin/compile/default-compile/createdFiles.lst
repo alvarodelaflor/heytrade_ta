@@ -3,6 +3,7 @@ com/heytrade/pokedex/controller/ControllerExceptionHandler.class
 com/heytrade/pokedex/domain/attack/Attaks.class
 com/heytrade/pokedex/domain/Height.class
 com/heytrade/pokedex/repository/PokemonRepository.class
+com/heytrade/pokedex/controller/AzureController.class
 com/heytrade/pokedex/config/CachingConfig.class
 com/heytrade/pokedex/domain/attack/impl/Fast.class
 com/heytrade/pokedex/domain/Evolution.class
