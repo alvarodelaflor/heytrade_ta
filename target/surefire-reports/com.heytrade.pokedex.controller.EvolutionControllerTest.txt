@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.heytrade.pokedex.controller.EvolutionControllerTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.918 s - in com.heytrade.pokedex.controller.EvolutionControllerTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.789 s - in com.heytrade.pokedex.controller.EvolutionControllerTest
