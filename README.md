@@ -230,13 +230,24 @@ As you can see in the excerpt above, it has been decided to use MongoDB (and in 
 
    If it does not exist, a 404 will be returned as above.
 
-6. **DELETE /api/pokemon/[:id]**
+5. **DELETE /api/pokemon/[:id]**
 
    Delete from the database the pokemon with id indicated by path variable.
 
    If it does not exist, a 404 will be returned as above.
 
    If positive, a 200 message will be returned.
+
+6. **POST /api/pokemon/collection**
+   This Endpoint has been created to facilitate the execution of a dump, i.e. the insertion of many pokemons into the database at the same time through a JSON per request body.
+   
+   ![dump](./img/dump.png)
+
+7. **EVOLUTION**
+
+   The same endpoints are made with the same characteristics for the case of the evolution entity.
+
+   You can see the driver in this [file](./src/main/java/com/heytrade/pokedex/controller/EvolutionController.java).
 
 If an uncontrolled error occurs, a 500 shall be returned with a message identifying that an error has occurred.
 
@@ -263,6 +274,12 @@ As you can see, if the token is not found, a message with a 401 code is sent.
 In the case of an expert, a 401 code is also returned but explained in the body of the message.
 
 ![401_expired](img/401_expired.png)
+
+### *CACHE*
+
+A cache mechanism has been implemented to speed up resource-intensive queries such as GET requests.
+
+You can see the configuration in this [file](./src/main/java/com/heytrade/pokedex/config/CachingConfig.java).
 
 ### *DOCKER & DOCKER-COMPOSE*
 
