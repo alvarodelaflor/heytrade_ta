@@ -1,5 +1,5 @@
 #surefire
-#Fri Jul 29 11:57:10 CEST 2022
+#Fri Jul 29 12:19:02 CEST 2022
 includes1=**/*Test.java
 includes2=**/*Tests.java
 includes0=**/Test*.java
@@ -98,7 +98,7 @@ classPathUrl.16=/home/alvaro/.m2/repository/org/springframework/boot/spring-boot
 classPathUrl.17=/home/alvaro/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.2/spring-boot-starter-logging-2.7.2.jar
 classPathUrl.18=/home/alvaro/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar
 classPathUrl.19=/home/alvaro/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar
-pluginPid=297441
+pluginPid=299395
 shutdown=DEFAULT
 classPathUrl.4=/home/alvaro/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar
 classPathUrl.5=/home/alvaro/.m2/repository/junit/junit/4.4/junit-4.4.jar
