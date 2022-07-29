@@ -1,0 +1,7 @@
+com/heytrade/pokedex/controller/EvolutionControllerTest.class
+com/heytrade/pokedex/controller/ControllerExceptionHandlerTest.class
+com/heytrade/pokedex/PokedexApplicationTests.class
+com/heytrade/pokedex/controller/PokemonTest.class
+com/heytrade/pokedex/service/PokemonServiceTest.class
+com/heytrade/pokedex/controller/PokemonControllerTest.class
+com/heytrade/pokedex/service/EvolutionServiceTest.class
